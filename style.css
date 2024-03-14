@@ -20,6 +20,11 @@ ul li a {
   color: #fff !important;
 }
 
+.navbar-nav .nav-item .sample:hover {
+  color: black !important;
+  opacity: 0.6;
+}
+
 .dropdown-menu {
   border: none !important;
   background-color: transparent !important;
