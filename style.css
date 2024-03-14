@@ -12,23 +12,39 @@ img {
   max-width: 100%;
 }
 
-.logo-image {
-  width: 100px;
+ul li {
+  font-size: 13.5px;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ul li a {
+  color: #fff !important;
 }
 
-nav ul {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+.dropdown-menu {
+  border: none !important;
+  background-color: transparent !important;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
+ul .dropdown-menu a {
+  /* color: black !important; */
+  opacity: 0.7;
+}
+
+ul .dropdown-menu a:hover {
+  /* color: black !important; */
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+main {
+  background-image: url("./Images/bg.jpg ");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.543);
+  min-height: 500px;
+  background-blend-mode: multiply;
+  color: #fff !important;
 }
