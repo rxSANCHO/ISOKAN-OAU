@@ -20,7 +20,7 @@ ul li a {
   color: #fff !important;
 }
 
-.navbar-nav .nav-item .sample:hover {
+.sample:hover {
   color: black !important;
   opacity: 0.6;
 }
