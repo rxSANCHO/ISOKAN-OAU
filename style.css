@@ -6,10 +6,13 @@
   font-family: poppins;
   list-style-type: none;
   /* color: red; */
+  /* border: 1px solid red; */
 }
 
 img {
   max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 ul li {
@@ -21,7 +24,7 @@ ul li a {
 }
 
 .sample:hover {
-  color: black !important;
+  color: rgb(8, 86, 255) !important;
   opacity: 0.6;
 }
 
@@ -44,7 +47,7 @@ ul .dropdown-menu a:hover {
 }
 
 main {
-  background-image: url("./Images/bg.jpg ");
+  background-image: url("./Images/bg2.jpg ");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -52,4 +55,48 @@ main {
   min-height: 500px;
   background-blend-mode: multiply;
   color: #fff !important;
+}
+
+.relative {
+  position: relative;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  position: absolute;
+  color: #fff;
+  padding: 1rem;
+  font-size: 13px;
+  /* left: 0; */
+  bottom: 0;
+}
+
+.push {
+  transform: translateY(3rem);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
