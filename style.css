@@ -63,16 +63,27 @@ main {
   border: 1px solid #ccc;
   border-radius: 1rem;
   overflow: hidden;
+  transition: 1s ease-in-out;
+}
+
+.relative::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
 .transparent {
-  background-color: rgba(0, 0, 0, 0.4) !important;
   position: absolute;
   color: #fff;
   padding: 1rem;
   font-size: 13px;
   /* left: 0; */
   bottom: 0;
+  z-index: 1;
 }
 
 .push {
