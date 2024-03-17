@@ -55,6 +55,14 @@ main {
   color: #fff !important;
 }
 
+.hero {
+  width: 600px;
+}
+
+p {
+  font-size: 13px;
+}
+
 .relative {
   position: relative;
   height: 300px;
